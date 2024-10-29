@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Store Launch - Coming Soon</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     * {
       margin: 0;
@@ -64,6 +65,18 @@
       margin-top: 10px;
     }
 
+    .social-icons img {
+      color: #3e2718;
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s;
+      margin-top: 10px;
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.1);
+    }
+
     /* Responsive styling */
     @media (max-width: 600px) {
       .logo {
@@ -79,6 +92,11 @@
       .coming-soon {
         font-size: 1.5em;
       }
+
+      .social-icons img {
+        width: 40px;
+        height: 40px;
+      }
     }
   </style>
 </head>
@@ -91,6 +109,11 @@
   <div class="content">
     <img src="logo.svg" class="middle-logo">
     <div class="coming-soon">Coming Soon</div>
+
+    <div class="social-icons">
+      <a href="https://www.tiktok.com/@wobbly.creations" target="_blank"><img src="tiktok.svg" alt="Tiktok"></a>
+      <a href="" target=""><img src="instagram.svg" alt="Instagram"></a>
+    </div>
   </div>
 </body>
 
